@@ -2,9 +2,10 @@
 
 /**
  * print_alphabet - print alphabet in lowercase
+ * Return: Nothing
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char alphabet;
 
@@ -12,5 +13,4 @@ int main(void)
 		_putchar(alphabet);
 
 	_putchar('\n');
-	return (0);
 }
