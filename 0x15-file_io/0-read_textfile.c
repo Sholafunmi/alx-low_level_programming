@@ -3,13 +3,13 @@
 #include <stdlib.h>
 
 /**
- * read_textfile - this reads a text file and also prints out the letters
- * @filename: filename.
- * @letters: numbers of letters printed.
+ * read_textfile - prints text from a file
  *
- * Return: numbers of letters printed. It fails, returns 0.
+ * @filename: name of the file
+ * @letters: number of characters to read
+ *
+ * Return: actual number of letters read, 0 if end of file
  */
-
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int file;
